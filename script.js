@@ -127,7 +127,7 @@ button.addEventListener('click', function() {
         nothingFound.textContent = "Ничего не найдено";
     } else {
         searchElement.forEach(function(item) {
-            let card = makeProductСard(item.title, item.description, item.tags, item.price, item.img);
+            let card = makeProductСard(item.title, item.description, item.price, item.tags, item.img);
             shopItems.append(card);
         });
     }
